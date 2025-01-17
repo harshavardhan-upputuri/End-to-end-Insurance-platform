@@ -1,3 +1,4 @@
+import { VscCoverage } from "react-icons/vsc";
 import logo from "./logo.png";
 import home1 from "./home1.png";
 import home2 from "./home2.png";
@@ -34,8 +35,25 @@ import starhealth from "./starhealth.png"
  
 import CPP from "./CPP.png"
  
+import lupsum from "./lupsum.png"
+import patient from "./patient.png"
+import ambulance from "./ambulance.png"
+import cashless from "./cashless.png"
+import addon from "./addon.png"
 
+import activhealth from "./activhealth.png"
+import gym from "./gym.png"
+import customercare from "./customercare.png"
+import claim from "./claim.png"
 
+import payout from "./payout.png"
+import { MdOutlineWorkspacePremium } from "react-icons/md";
+import taxbenefit from "./taxbenefit.png";
+import flexibility from "./flexibility.png";
+import easyprocess from "./easyp.png";
+
+import login from "./loginpic.jpg";
+import signup from "./signuppic.png"
 export const assets = {
     logo,
     home1,
@@ -43,8 +61,17 @@ export const assets = {
     home3,
     pay, play, app,
     aditya,
-    bajaj
+    bajaj,
 
+    lupsum,
+    patient,
+    ambulance,
+    cashless,addon,
+
+    activhealth,
+    gym,customercare,claim,
+
+    login,signup
 
 }
 
@@ -674,6 +701,64 @@ export const items = [
                     desc3: "Accidental death benefit for added protection....",
                 },
                 rating: 4,
+                keyhigh: {
+                    a: {
+                        image: <VscCoverage />,
+                        h2: "Comprehensive Coverage –",
+                        p: "Get extensive life insurance coverage to secure your family's financial future in case of unforeseen events.",
+                        l1: "Accidental death cover,",
+                        l2: "Terminal illness benefit,",
+                        l3: "Critical illness add-on options",
+                    },
+                    b: {
+                        image: payout,
+                        h2: "Guaranteed Payout",
+                        p: "Ensure your family gets a guaranteed sum assured payout to help them maintain their financial stability during difficult times.",
+                    },
+                    c: {
+                        image: <MdOutlineWorkspacePremium />,
+                        h2: "Affordable Premiums",
+                        p: "Enjoy high coverage at affordable premiums tailored to fit your financial needs.",
+                    },
+                    d: {
+                        image: taxbenefit,
+                        h2: "Tax Benefits",
+                        p: "Save on taxes with benefits under Sections 80C and 10(10D) of the Income Tax Act.",
+                    },
+                    e: {
+                        image: flexibility,
+                        h2: "Flexible Policy Terms",
+                        p: "Choose policy durations and premium payment terms that suit your life goals and financial planning.",
+                    },
+                    f: {
+                        image: addon,
+                        h2: "Add-on Benefits",
+                        p: "Enhance your policy with add-ons like accidental death benefit, critical illness cover, and waiver of premium."
+                    }
+                },
+                why: {
+                    a: {
+                        image: easyprocess,
+                        h3: "Simple and Quick Process",
+                        p: "Buy your term insurance policy online in just a few clicks, with minimal paperwork and maximum convenience.",
+                    },
+                    b: {
+                        image: claim,
+                        h3: "High Claim Settlement Ratio",
+                        p: "Rest assured with our excellent claim settlement record and prompt service for a smooth claims experience.",
+                    },
+                    c: {
+                        image: customercare,
+                        h3: "Dedicated Customer Support",
+                        p: "Reach out to our support team anytime for assistance with policy details, premium payments, or claims.",
+                    },
+                    d: {
+                        image: termlife,
+                        h3: "Enhanced Life Cover",
+                        p: "Opt for increasing life cover options to account for inflation and changing financial responsibilities."
+                    }
+                }
+                
             },
             {
                 id: '1',
@@ -691,6 +776,63 @@ export const items = [
                     desc3: "Tax benefits under Section 80C and 10D....",
                 },
                 rating: 4.5,
+                keyhigh: {
+                    a: {
+                        image: <VscCoverage />,
+                        h2: "Comprehensive Coverage –",
+                        p: "Get extensive life insurance coverage to secure your family's financial future in case of unforeseen events.",
+                        l1: "Accidental death cover,",
+                        l2: "Terminal illness benefit,",
+                        l3: "Critical illness add-on options",
+                    },
+                    b: {
+                        image: payout,
+                        h2: "Guaranteed Payout",
+                        p: "Ensure your family gets a guaranteed sum assured payout to help them maintain their financial stability during difficult times.",
+                    },
+                    c: {
+                        image: <MdOutlineWorkspacePremium />,
+                        h2: "Affordable Premiums",
+                        p: "Enjoy high coverage at affordable premiums tailored to fit your financial needs.",
+                    },
+                    d: {
+                        image: taxbenefit,
+                        h2: "Tax Benefits",
+                        p: "Save on taxes with benefits under Sections 80C and 10(10D) of the Income Tax Act.",
+                    },
+                    e: {
+                        image: flexibility,
+                        h2: "Flexible Policy Terms",
+                        p: "Choose policy durations and premium payment terms that suit your life goals and financial planning.",
+                    },
+                    f: {
+                        image: addon,
+                        h2: "Add-on Benefits",
+                        p: "Enhance your policy with add-ons like accidental death benefit, critical illness cover, and waiver of premium."
+                    }
+                },
+                why: {
+                    a: {
+                        image: easyprocess,
+                        h3: "Simple and Quick Process",
+                        p: "Buy your term insurance policy online in just a few clicks, with minimal paperwork and maximum convenience.",
+                    },
+                    b: {
+                        image: claim,
+                        h3: "High Claim Settlement Ratio",
+                        p: "Rest assured with our excellent claim settlement record and prompt service for a smooth claims experience.",
+                    },
+                    c: {
+                        image: customercare,
+                        h3: "Dedicated Customer Support",
+                        p: "Reach out to our support team anytime for assistance with policy details, premium payments, or claims.",
+                    },
+                    d: {
+                        image: termlife,
+                        h3: "Enhanced Life Cover",
+                        p: "Opt for increasing life cover options to account for inflation and changing financial responsibilities."
+                    }
+                }
             },
             {
                 id: '2',
@@ -708,12 +850,69 @@ export const items = [
                     desc3: "Covers 34 critical illnesses with add-ons....",
                 },
                 rating: 5,
+                keyhigh: {
+                    a: {
+                        image: <VscCoverage />,
+                        h2: "Comprehensive Coverage –",
+                        p: "Get extensive life insurance coverage to secure your family's financial future in case of unforeseen events.",
+                        l1: "Accidental death cover,",
+                        l2: "Terminal illness benefit,",
+                        l3: "Critical illness add-on options",
+                    },
+                    b: {
+                        image: payout,
+                        h2: "Guaranteed Payout",
+                        p: "Ensure your family gets a guaranteed sum assured payout to help them maintain their financial stability during difficult times.",
+                    },
+                    c: {
+                        image: <MdOutlineWorkspacePremium />,
+                        h2: "Affordable Premiums",
+                        p: "Enjoy high coverage at affordable premiums tailored to fit your financial needs.",
+                    },
+                    d: {
+                        image: taxbenefit,
+                        h2: "Tax Benefits",
+                        p: "Save on taxes with benefits under Sections 80C and 10(10D) of the Income Tax Act.",
+                    },
+                    e: {
+                        image: flexibility,
+                        h2: "Flexible Policy Terms",
+                        p: "Choose policy durations and premium payment terms that suit your life goals and financial planning.",
+                    },
+                    f: {
+                        image: addon,
+                        h2: "Add-on Benefits",
+                        p: "Enhance your policy with add-ons like accidental death benefit, critical illness cover, and waiver of premium."
+                    }
+                },
+                why: {
+                    a: {
+                        image: easyprocess,
+                        h3: "Simple and Quick Process",
+                        p: "Buy your term insurance policy online in just a few clicks, with minimal paperwork and maximum convenience.",
+                    },
+                    b: {
+                        image: claim,
+                        h3: "High Claim Settlement Ratio",
+                        p: "Rest assured with our excellent claim settlement record and prompt service for a smooth claims experience.",
+                    },
+                    c: {
+                        image: customercare,
+                        h3: "Dedicated Customer Support",
+                        p: "Reach out to our support team anytime for assistance with policy details, premium payments, or claims.",
+                    },
+                    d: {
+                        image: termlife,
+                        h3: "Enhanced Life Cover",
+                        p: "Opt for increasing life cover options to account for inflation and changing financial responsibilities."
+                    }
+                }
             },
             {
                 id: '3',
                 category:"termlife",
                 image: tata,
-                name: "Tata AIA Sampoorna Raksha",
+                name: "Tata  Sampoorna Raksha",
                 head: "Term Life Plan",
                 sub_name: "Tata AIA Life Insurance",
                 type: "Individual",
@@ -725,10 +924,67 @@ export const items = [
                     desc3: "Includes terminal illness cover with no extra....",
                 },
                 rating: 4,
+                keyhigh: {
+                    a: {
+                        image: <VscCoverage />,
+                        h2: "Comprehensive Coverage –",
+                        p: "Get extensive life insurance coverage to secure your family's financial future in case of unforeseen events.",
+                        l1: "Accidental death cover,",
+                        l2: "Terminal illness benefit,",
+                        l3: "Critical illness add-on options",
+                    },
+                    b: {
+                        image: payout,
+                        h2: "Guaranteed Payout",
+                        p: "Ensure your family gets a guaranteed sum assured payout to help them maintain their financial stability during difficult times.",
+                    },
+                    c: {
+                        image: <MdOutlineWorkspacePremium />,
+                        h2: "Affordable Premiums",
+                        p: "Enjoy high coverage at affordable premiums tailored to fit your financial needs.",
+                    },
+                    d: {
+                        image: taxbenefit,
+                        h2: "Tax Benefits",
+                        p: "Save on taxes with benefits under Sections 80C and 10(10D) of the Income Tax Act.",
+                    },
+                    e: {
+                        image: flexibility,
+                        h2: "Flexible Policy Terms",
+                        p: "Choose policy durations and premium payment terms that suit your life goals and financial planning.",
+                    },
+                    f: {
+                        image: addon,
+                        h2: "Add-on Benefits",
+                        p: "Enhance your policy with add-ons like accidental death benefit, critical illness cover, and waiver of premium."
+                    }
+                },
+                why: {
+                    a: {
+                        image: easyprocess,
+                        h3: "Simple and Quick Process",
+                        p: "Buy your term insurance policy online in just a few clicks, with minimal paperwork and maximum convenience.",
+                    },
+                    b: {
+                        image: claim,
+                        h3: "High Claim Settlement Ratio",
+                        p: "Rest assured with our excellent claim settlement record and prompt service for a smooth claims experience.",
+                    },
+                    c: {
+                        image: customercare,
+                        h3: "Dedicated Customer Support",
+                        p: "Reach out to our support team anytime for assistance with policy details, premium payments, or claims.",
+                    },
+                    d: {
+                        image: termlife,
+                        h3: "Enhanced Life Cover",
+                        p: "Opt for increasing life cover options to account for inflation and changing financial responsibilities."
+                    }
+                }
             },
  
             {
-                id: '0',
+                id: '4',
                 category:"health",
                 image: aditya,
                 name: "Aditya Birla Group Active",
@@ -738,15 +994,74 @@ export const items = [
                 premium:  8182,
                 coverage: "Rs. 500000*",
                 desc: {
-                    desc1: "Coverage even with Asthma, Blood pressure....",
-                    desc2: "Covers pre and post hospitalisation for 30 ....",
+                    desc1: "10,000+ cashless hospitals",
+                    desc2: "Covers asthma, blood pressure, cholesterol, and diabetes",
                     desc3: "Covers 527 daycare procedures",
                 },
                 rating: 4,
+
+                keyhigh:{
+                    a:{
+                        image:lupsum,
+                        h2:"Lump sum Benefit –",
+                        p:"Cover 586 Day care procedures even if hospitalization is less than 24 hours",
+                        l1:" Group personal accident cover ,",
+                        l2:" Group critical illness cover,",
+                        l3:"Group hospital cash benefit",
+                    },
+                    b:{
+                        image:patient,
+                        h2:"In-patient Hospitalization",
+                        p:"Covers in-patient hospitalization expenses like room rent, doctor's fees, surgery, tests, and medicines for stays over 24 hours."
+                    },
+                    c:{
+                        image:ambulance,
+                        h2:"Road Ambulance Cover",
+                        p:"Cover for the cost incurred on transportation of the insured person to a hospital by a road ambulance, along with hospital transfers for specialty treatment."
+                    },
+                    d:{
+                        image:cashless,
+                        h2:"Cashless settlement",
+                        p:"Hassle-free, cashless treatment at any of our 10051+ network hospitals spread across 650+ cities"
+                    },
+                    e:{
+                        image:cashless,
+                        h2:"Hassle Free Claims",
+                        p:"Get your cashless claims settlement in a hassle free manner within a short time of raising a claim."
+                    },
+                    f:{
+                        image:addon,
+                        h2:"Hassle Free Claims",
+                        p:"Get your cashless claims settlement in a hassle free manner within a short time of raising a claim."
+                    }
+                },
+                why:{
+                    a:{
+                        image:activhealth,
+                        h3:"Activ Health app",
+                        p:"Track and improve your health, get rewarded with HealthReturns™, and access your policy, all from your smartphone."
+                    },
+                    b:{
+                        image:health,
+                        h3:"Healthcare Network",
+                        p:"Make convenient cashless payments at 6000+ network hospitals in 650+ cities in India. Get access to 800+ fitness centers, including gyms, yoga, dance classes & more."
+                    },
+                    c:{
+                        image:customercare,
+                        h3:"Anytime, anywhere 24x7 support",
+                        p:"Reach out to our customer support team on WhatsApp and get your doubts and queries answered instantly."
+                    },
+                    d:{
+                        image:claim,
+                        h3:"Quick and easy claim settlement",
+                        p:"Get claims processed faster by our in-house claim settlement team and receive an e-mail/SMS update within 2 hour."
+                    }
+
+                }
             },
         
             {
-                id: '1',
+                id: '5',
                 category:"health",
                 image: bajaj,
                 name: "Bajaj Allianz Health Guard",
@@ -761,10 +1076,68 @@ export const items = [
                     desc3: "Offers cashless claim facility at 6500+ ....",
                 },
                 rating: 3,
+                keyhigh:{
+                    a:{
+                        image:lupsum,
+                        h2:"Lump sum Benefit –",
+                        p:"Cover 586 Day care procedures even if hospitalization is less than 24 hours",
+                        l1:" Group personal accident cover ,",
+                        l2:" Group critical illness cover,",
+                        l3:"Group hospital cash benefit",
+                    },
+                    b:{
+                        image:patient,
+                        h2:"In-patient Hospitalization",
+                        p:"Covers in-patient hospitalization expenses like room rent, doctor's fees, surgery, tests, and medicines for stays over 24 hours."
+                    },
+                    c:{
+                        image:ambulance,
+                        h2:"Road Ambulance Cover",
+                        p:"Cover for the cost incurred on transportation of the insured person to a hospital by a road ambulance, along with hospital transfers for specialty treatment."
+                    },
+                    d:{
+                        image:cashless,
+                        h2:"Cashless settlement",
+                        p:"Hassle-free, cashless treatment at any of our 10051+ network hospitals spread across 650+ cities"
+                    },
+                    e:{
+                        image:cashless,
+                        h2:"Hassle Free Claims",
+                        p:"Get your cashless claims settlement in a hassle free manner within a short time of raising a claim."
+                    },
+                    f:{
+                        image:addon,
+                        h2:"Hassle Free Claims",
+                        p:"Get your cashless claims settlement in a hassle free manner within a short time of raising a claim."
+                    }
+                },
+                why:{
+                    a:{
+                        image:activhealth,
+                        h3:"Activ Health app",
+                        p:"Track and improve your health, get rewarded with HealthReturns™, and access your policy, all from your smartphone."
+                    },
+                    b:{
+                        image:health,
+                        h3:"Healthcare Network",
+                        p:"Make convenient cashless payments at 6000+ network hospitals in 650+ cities in India. Get access to 800+ fitness centers, including gyms, yoga, dance classes & more."
+                    },
+                    c:{
+                        image:customercare,
+                        h3:"Anytime, anywhere 24x7 support",
+                        p:"Reach out to our customer support team on WhatsApp and get your doubts and queries answered instantly."
+                    },
+                    d:{
+                        image:claim,
+                        h3:"Quick and easy claim settlement",
+                        p:"Get claims processed faster by our in-house claim settlement team and receive an e-mail/SMS update within 2 hour."
+                    }
+
+                }
             },
        
             {
-                id: '2',
+                id: '6',
                 category:"health",
                 image: manipal,
                 name: "Pro Health Senior Citizen",
@@ -779,10 +1152,68 @@ export const items = [
                     desc3: "Pre- and post-hospitalisation coverage ....",
                 },
                 rating: 3,
+                keyhigh:{
+                    a:{
+                        image:lupsum,
+                        h2:"Lump sum Benefit –",
+                        p:"Cover 586 Day care procedures even if hospitalization is less than 24 hours",
+                        l1:" Group personal accident cover ,",
+                        l2:" Group critical illness cover,",
+                        l3:"Group hospital cash benefit",
+                    },
+                    b:{
+                        image:patient,
+                        h2:"In-patient Hospitalization",
+                        p:"Covers in-patient hospitalization expenses like room rent, doctor's fees, surgery, tests, and medicines for stays over 24 hours."
+                    },
+                    c:{
+                        image:ambulance,
+                        h2:"Road Ambulance Cover",
+                        p:"Cover for the cost incurred on transportation of the insured person to a hospital by a road ambulance, along with hospital transfers for specialty treatment."
+                    },
+                    d:{
+                        image:cashless,
+                        h2:"Cashless settlement",
+                        p:"Hassle-free, cashless treatment at any of our 10051+ network hospitals spread across 650+ cities"
+                    },
+                    e:{
+                        image:cashless,
+                        h2:"Hassle Free Claims",
+                        p:"Get your cashless claims settlement in a hassle free manner within a short time of raising a claim."
+                    },
+                    f:{
+                        image:addon,
+                        h2:"Hassle Free Claims",
+                        p:"Get your cashless claims settlement in a hassle free manner within a short time of raising a claim."
+                    }
+                },
+                why:{
+                    a:{
+                        image:activhealth,
+                        h3:"Activ Health app",
+                        p:"Track and improve your health, get rewarded with HealthReturns™, and access your policy, all from your smartphone."
+                    },
+                    b:{
+                        image:health,
+                        h3:"Healthcare Network",
+                        p:"Make convenient cashless payments at 6000+ network hospitals in 650+ cities in India. Get access to 800+ fitness centers, including gyms, yoga, dance classes & more."
+                    },
+                    c:{
+                        image:customercare,
+                        h3:"Anytime, anywhere 24x7 support",
+                        p:"Reach out to our customer support team on WhatsApp and get your doubts and queries answered instantly."
+                    },
+                    d:{
+                        image:claim,
+                        h3:"Quick and easy claim settlement",
+                        p:"Get claims processed faster by our in-house claim settlement team and receive an e-mail/SMS update within 2 hour."
+                    }
+
+                }
             },
 
             {
-                id: '3',
+                id: '7',
                 category:"health",
                 image: niva,
                 name: "Niva Bupa Health plus plan",
@@ -797,10 +1228,68 @@ export const items = [
                     desc3: "Daycare treatment coverage for various procedures....",
                 },
                 rating: 3,
+                keyhigh:{
+                    a:{
+                        image:lupsum,
+                        h2:"Lump sum Benefit –",
+                        p:"Cover 586 Day care procedures even if hospitalization is less than 24 hours",
+                        l1:" Group personal accident cover ,",
+                        l2:" Group critical illness cover,",
+                        l3:"Group hospital cash benefit",
+                    },
+                    b:{
+                        image:patient,
+                        h2:"In-patient Hospitalization",
+                        p:"Covers in-patient hospitalization expenses like room rent, doctor's fees, surgery, tests, and medicines for stays over 24 hours."
+                    },
+                    c:{
+                        image:ambulance,
+                        h2:"Road Ambulance Cover",
+                        p:"Cover for the cost incurred on transportation of the insured person to a hospital by a road ambulance, along with hospital transfers for specialty treatment."
+                    },
+                    d:{
+                        image:cashless,
+                        h2:"Cashless settlement",
+                        p:"Hassle-free, cashless treatment at any of our 10051+ network hospitals spread across 650+ cities"
+                    },
+                    e:{
+                        image:cashless,
+                        h2:"Hassle Free Claims",
+                        p:"Get your cashless claims settlement in a hassle free manner within a short time of raising a claim."
+                    },
+                    f:{
+                        image:addon,
+                        h2:"Hassle Free Claims",
+                        p:"Get your cashless claims settlement in a hassle free manner within a short time of raising a claim."
+                    }
+                },
+                why:{
+                    a:{
+                        image:activhealth,
+                        h3:"Activ Health app",
+                        p:"Track and improve your health, get rewarded with HealthReturns™, and access your policy, all from your smartphone."
+                    },
+                    b:{
+                        image:health,
+                        h3:"Healthcare Network",
+                        p:"Make convenient cashless payments at 6000+ network hospitals in 650+ cities in India. Get access to 800+ fitness centers, including gyms, yoga, dance classes & more."
+                    },
+                    c:{
+                        image:customercare,
+                        h3:"Anytime, anywhere 24x7 support",
+                        p:"Reach out to our customer support team on WhatsApp and get your doubts and queries answered instantly."
+                    },
+                    d:{
+                        image:claim,
+                        h3:"Quick and easy claim settlement",
+                        p:"Get claims processed faster by our in-house claim settlement team and receive an e-mail/SMS update within 2 hour."
+                    }
+
+                }
             },
  
             {
-                id: '0',
+                id: '8',
                 category:"car",
                 image: sbicar,
                 name: "SBI General Car Insurance",
@@ -808,7 +1297,7 @@ export const items = [
                 sub_name: 'SBI General Insurance',
                 type: "RETAIL",
                 premium:  3043,
-                coverage: "Coverage for accidents, theft, ....",
+                coverage: "Rs. 50,000",
                 desc: {
                     desc1: "Covers damages due to accidents or collisions.",
                     desc2: "Protection against theft and vandalism.",
@@ -817,7 +1306,7 @@ export const items = [
                 rating: 4,
             },
             {
-                id: '1',
+                id: '9',
                 category:"car",
                 image: bajaj,
                 name: "Bajaj Allianz Car Insurance",
@@ -825,7 +1314,7 @@ export const items = [
                 sub_name: 'Bajaj Allianz General Insurance',
                 type: "RETAIL",
                 premium:  3031,
-                coverage: "Comprehensive coverage for both.....",
+                coverage: "Rs. 50,000",
                 desc: {
                     desc1: "Provides coverage for third-party liability.",
                     desc2: "Includes protection for accidental damages.",
@@ -834,7 +1323,7 @@ export const items = [
                 rating: 3,
             },
             {
-                id: '2',
+                id: '10',
                 category:"car",
                 image: ackocar,
                 name: "ACKO Car Insurance",
@@ -842,7 +1331,7 @@ export const items = [
                 sub_name: 'ACKO General Insurance',
                 type: "RETAIL",
                 premium:  2762,
-                coverage: "Covers vehicle damage, theft, ....",
+                coverage: "Rs. 50,000",
                 desc: {
                     desc1: "Covers accidental damage and vehicle repairs.",
                     desc2: "Third-party liability protection for accidents.",
@@ -851,7 +1340,7 @@ export const items = [
                 rating: 3,
             },
             {
-                id: '3',
+                id: '11',
                 category:"car",
                 image: hdfccar,
                 name: "HDFC ERGO Car Insurance",
@@ -859,7 +1348,7 @@ export const items = [
                 sub_name: 'HDFC ERGO General Insurance',
                 type: "RETAIL",
                 premium:  2094,
-                coverage: "Offers full protection includi.....",
+                coverage: "Rs. 50,000",
                 desc: {
                     desc1: "Covers damages from accidents, natural cala ....",
                     desc2: "Extensive network of garages offering ...s.",
@@ -870,7 +1359,7 @@ export const items = [
 
 
             {
-                id: '0',
+                id: '12',
                 category:"bike",
                 image: bajaj,
                 name: "Bajaj Allianz Bike Insurance",
@@ -878,7 +1367,7 @@ export const items = [
                 sub_name: 'Bajaj Allianz General Insurance',
                 type: "RETAIL",
                 premium:  850,
-                coverage: "Up to Rs. 1 Lakh*",
+                coverage: "Rs. 1,00,000",
                 desc: {
                     desc1: "Covers accidental damage",
                     desc2: "24/7 roadside assistance",
@@ -887,7 +1376,7 @@ export const items = [
                 rating: 4,
             },
             {
-                id: '1',
+                id: '13',
                 category:"bike",
                 image: icici,
                 name: "ICICI Lombard Bike Insurance",
@@ -895,7 +1384,7 @@ export const items = [
                 sub_name: 'ICICI Lombard General Insurance',
                 type: "RETAIL",
                 premium:  1020,
-                coverage: "Up to Rs. 2 Lakhs*",
+                coverage:  "Rs. 2,00,000",
                 desc: {
                     desc1: "Protection against theft",
                     desc2: "Cashless network of garages",
@@ -904,7 +1393,7 @@ export const items = [
                 rating: 4,
             },
             {
-                id: '2',
+                id: '14',
                 category:"bike",
                 image: hdfc,
                 name: "HDFC ERGO Bike Insurance",
@@ -912,7 +1401,7 @@ export const items = [
                 sub_name: 'HDFC ERGO General Insurance',
                 type: "RETAIL",
                 premium:  900,
-                coverage: "Up to Rs. 1.5 Lakh*",
+                coverage:  "Rs. 1,50,000",
                 desc: {
                     desc1: "Comprehensive protection",
                     desc2: "Fast claim process",
@@ -921,7 +1410,7 @@ export const items = [
                 rating: 3.5,
             },
             {
-                id: '3',
+                id: '15',
                 category:"bike",
                 image: tata,
                 name: "Tata AIG Bike Insurance",
@@ -929,7 +1418,7 @@ export const items = [
                 sub_name: 'Tata AIG General Insurance',
                 type: "RETAIL",
                 premium:  950,
-                coverage: "Up to Rs. 1.25 Lakh*",
+                coverage:  "Rs. 1,25,000",
                 desc: {
                     desc1: "Accidental damage cover",
                     desc2: "24/7 claim assistance",
@@ -940,7 +1429,7 @@ export const items = [
     
    
             {
-                id: '0',
+                id: '16',
                 category:"family",
                 image: starhealth,
                 name: "Star Health Family Health Optima",
@@ -948,7 +1437,7 @@ export const items = [
                 sub_name: 'Star Health and Allied Insurance',
                 type: "RETAIL",
                 premium:  15000,
-                coverage: "Up to Rs. 10 Lakh*",
+                coverage: "Rs. 10,00,000",
                 desc: {
                     desc1: "Complete family health cover",
                     desc2: "Cashless hospitalization",
@@ -957,7 +1446,7 @@ export const items = [
                 rating: 4,
             },
             {
-                id: '1',
+                id: '17',
                 category:"family",
                 image: religare,
                 name: "Religare Health Family Floater",
@@ -965,7 +1454,7 @@ export const items = [
                 sub_name: 'Religare Health Insurance',
                 type: "RETAIL",
                 premium:  12000,
-                coverage: "Up to Rs. 5 Lakh*",
+                coverage:  "Rs. 5,00,000",
                 desc: {
                     desc1: "Comprehensive medical cover",
                     desc2: "No age limit for policyholders",
@@ -974,7 +1463,7 @@ export const items = [
                 rating: 4,
             },
             {
-                id: '2',
+                id: '18',
                 category:"family",
                 image: maxbupa,
                 name: "Max Bupa Health Companion",
@@ -982,7 +1471,7 @@ export const items = [
                 sub_name: 'Max Bupa Health Insurance',
                 type: "RETAIL",
                 premium:  13500,
-                coverage: "Up to Rs. 8 Lakh*",
+                coverage: "Rs. 8,00,000",
                 desc: {
                     desc1: "Family floater plan",
                     desc2: "Free health check-ups",
@@ -991,7 +1480,7 @@ export const items = [
                 rating: 4,
             },
             {
-                id: '3',
+                id: '19',
                 category:"family",
                 image: hdfc,
                 name: "HDFC ERGO Health Protect",
@@ -999,7 +1488,7 @@ export const items = [
                 sub_name: 'HDFC ERGO Health Insurance',
                 type: "RETAIL",
                 premium:  12500,
-                coverage: "Up to Rs. 7.5 Lakh*",
+                coverage:  "Rs. 7,50,000",
                 desc: {
                     desc1: "Affordable health plan for family",
                     desc2: "Daily hospital cash benefit",
@@ -1010,7 +1499,7 @@ export const items = [
  
     
             {
-                id: '0',
+                id: '20',
                 category:"travel",
                 image: bajaj,
                 name: "Mumbai Local Train Insurance Cover",
@@ -1018,7 +1507,7 @@ export const items = [
                 sub_name: 'Bajaj Allianz General Insurance',
                 type: "GROUP",
                 premium:  416,
-                coverage: "Up to Rs. 100000*",
+                coverage:  "Rs. 1,00,000",
                 desc: {
                     desc1: "Family health cover",
                     desc2: "Cashless hospitalization",
@@ -1027,7 +1516,7 @@ export const items = [
                 rating: 4,
             },
             {
-                id: '1',
+                id: '21',
                 category:"travel",
                 image: CPP,
                 name: "Leh Ladakh Road Trip Cover",
@@ -1035,7 +1524,7 @@ export const items = [
                 sub_name: 'CPP Group India',
                 type: "ASSISTANCE",
                 premium:  599,
-                coverage: "Up to Rs. 300000*",
+                coverage:  "Rs. 1,00,000",
                 desc: {
                     desc1: "Comprehensive medical cover",
                     desc2: "No age limit",
@@ -1044,7 +1533,7 @@ export const items = [
                 rating: 4,
             },
             {
-                id: '2',
+                id: '22',
                 category:"travel",
                 image: CPP,
                 name: "Mumbai Pune Road Trip Cover",
@@ -1052,7 +1541,7 @@ export const items = [
                 sub_name: 'CPP Group India',
                 type: "ASSISTANCE",
                 premium:  599,
-                coverage: "Up to Rs. 300000*",
+                coverage:  "Rs. 30,00,000",
                 desc: {
                     desc1: "Medical coverage",
                     desc2: "No age restrictions",
@@ -1061,7 +1550,7 @@ export const items = [
                 rating: 4,
             },
             {
-                id: '3',
+                id: '23',
                 category:"travel",
                 image: CPP,
                 name: "Pune Goa Road Trip Cover",
@@ -1069,7 +1558,7 @@ export const items = [
                 sub_name: 'CPP Group India',
                 type: "ASSISTANCE",
                 premium:  599,
-                coverage: "Up to Rs. 300000*",
+                coverage: "Rs. 30,00,000",
                 desc: {
                     desc1: "Medical cover included",
                     desc2: "Unlimited age coverage",
@@ -1079,7 +1568,7 @@ export const items = [
             },
       
             {
-                id: '0',
+                id: '24',
                 category:"home",
                 image: hdfc,  
                 name: "Household Protection Plan",
@@ -1087,7 +1576,7 @@ export const items = [
                 sub_name: 'HDFC Ergo Home Insurance',
                 type: "RETAIL",
                 premium:  2799,
-                coverage: "Up to Rs. 500000*",
+                coverage: "Rs. 50,00,000",
                 desc: {
                     desc1: "Covers fire, lightning, and explosion",
                     desc2: "Protection against theft and burglary",
@@ -1096,15 +1585,15 @@ export const items = [
                 rating: 4,
             },
             {
-                id: '1',
+                id: '25',
                 category:"home",
                 image: bajaj,  
-                name: "HomeSecure Comprehensive ",
-                head: "Comprehensive Home Insurance",
+                name: "HomeSecure In ",
+                head: "Comprehensive Home Inc",
                 sub_name: 'Bajaj Allianz General Insurance',
                 type: "RETAIL",
                 premium:  3499,
-                coverage: "Up to Rs. 800000*",
+                coverage:  "Rs. 8,00,000",
                 desc: {
                     desc1: "Coverage for damage due to natural calamities",
                     desc2: "Theft, burglary, and vandalism protection",
@@ -1113,7 +1602,7 @@ export const items = [
                 rating: 5,
             },
             {
-                id: '2',
+                id: '26',
                 category:"home",
                 image: icici,  
                 name: "HomeCare Plus Plan",
@@ -1121,7 +1610,7 @@ export const items = [
                 sub_name: 'ICICI Lombard General Insurance',
                 type: "RETAIL",
                 premium:  1599,
-                coverage: "Up to Rs. 400000*",
+                coverage: "Rs. 400000*",
                 desc: {
                     desc1: "Fire and lightning damage protection",
                     desc2: "Covers accidental damage and theft",
@@ -1130,7 +1619,7 @@ export const items = [
                 rating: 3,
             },
             {
-                id: '3',
+                id: '27',
                 category:"home",
                 image: tata,  
                 name: "Total Home Care Plan",
@@ -1138,7 +1627,7 @@ export const items = [
                 sub_name: 'Tata AIG General Insurance',
                 type: "RETAIL",
                 premium:  4299,
-                coverage: "Up to Rs. 1000000*",
+                coverage: "Rs. 1000000*",
                 desc: {
                     desc1: "Complete protection against fire and floods",
                     desc2: "Covers home contents and valuables",
@@ -1148,15 +1637,15 @@ export const items = [
             },
        
             {
-                id: '0',
+                id: '28',
                 category:"Corp",
-                image: hdfc,  // Image related to corporate insurance
-                name: "Business Liability Insurance",
+                image: hdfc, 
+                name: "Business Liability In",
                 head: "General Liability Coverage",
                 sub_name: 'HDFC Ergo Corporate Insurance',
                 type: "GROUP",
                 premium:  8999,
-                coverage: "Up to Rs. 1 Crore*",
+                coverage: " Rs. 1 Crore*",
                 desc: {
                     desc1: "Protection against third-party claims",
                     desc2: "Covers employee injuries on the job",
@@ -1165,15 +1654,15 @@ export const items = [
                 rating: 4,
             },
             {
-                id: '1',
+                id: '29',
                 category:"Corp",
-                image: bajaj,  // Image related to business operations
-                name: "Employee Health and Wellness ",
-                head: "Corporate Health Insurance",
+                image: bajaj, 
+                name: "Employee Health  ",
+                head: "Corporate Health In",
                 sub_name: 'Bajaj Allianz Corporate Insurance',
                 type: "GROUP",
                 premium:  4999,
-                coverage: "Up to Rs. 5 Lakhs* per employee",
+                coverage: "Rs. 5 Lakhs*",
                 desc: {
                     desc1: "Comprehensive health coverage for employees",
                     desc2: "Cashless treatment at network hospitals",
@@ -1182,15 +1671,15 @@ export const items = [
                 rating: 5,
             },
             {
-                id: '2',
+                id: '30',
                 category:"Corp",
-                image: icici,  // Image of an office environment
-                name: "Property Damage Insurance",
-                head: "Business Property Protection",
+                image: icici,  
+                name: "Property Damage Insu..",
+                head: " Property Protection",
                 sub_name: 'ICICI Lombard Corporate Insurance',
                 type: "GROUP",
                 premium:  8499,
-                coverage: "Up to Rs. 50 Lakhs*",
+                coverage: "Rs. 50 Lakhs*",
                 desc: {
                     desc1: "Covers damage due to fire and floods",
                     desc2: "Protection against theft and vandalism",
@@ -1199,15 +1688,15 @@ export const items = [
                 rating: 3,
             },
             {
-                id: '3',
+                id: '31',
                 category:"Corp",
-                image: tata,  // Image of corporate office
+                image: tata,   
                 name: "Workers Compensation In",
                 head: "Employee Injury Coverage",
                 sub_name: 'Tata AIG Corporate Insurance',
                 type: "GROUP",
                 premium:  7999,
-                coverage: "Up to Rs. 20 Lakhs* per employee",
+                coverage: " Rs. 20 Lakhs*",
                 desc: {
                     desc1: "Coverage for employee work-related injuries",
                     desc2: "Medical expenses and rehabilitation costs",

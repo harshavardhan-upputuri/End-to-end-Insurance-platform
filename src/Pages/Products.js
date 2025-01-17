@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import ProductsDisplay from './ProductsDisplay';
+import ProductsDisplay from '../components/ProductsDisplay';
 import { items } from '../Assets/assets';
 const Products = () => {
     const [rangeValue, setRangeValue] = useState(0);
@@ -74,7 +74,7 @@ const Products = () => {
                     <div className='flex items-center'>
                         <div className='flex items-center gap-8'>
                             <p>Price</p>
-                            <input className='w-[70px] h-[35px] mt-2 rounded-md items-center px-2 border-2 border-[#c3cbdf]' value={rangeValue} name="min" id="price" placeholder='0'></input>
+                            <input className='w-[70px] h-[35px] mt-2 rounded-md items-center px-2 border-2 border-[#c3cbdf]' onChange={handleChange} value={rangeValue} name="min" id="price" placeholder='0'></input>
                         </div>
                         {/* <hr className='h-0.25 w-4 mt-10 mx-4 mb-4  border-[#000000] ' />
                         <div className='flex flex-col justify-between'>
@@ -129,8 +129,14 @@ const Products = () => {
                         </select>
                     </form>
                 </div>
-                <div className="flex mx-auto">
-                    <ProductsDisplay selectedCategories={selectedCategories} />
+                <div className="flex mx-auto  flex-wrap">
+                    {
+                        selectedCategories.map((item,id)=>{
+                            return  <ProductsDisplay key={id} item={item} id={item.id} />
+
+                        })
+                    }
+                    
 
                 </div>
             </div>

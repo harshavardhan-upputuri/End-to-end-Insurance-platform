@@ -1,20 +1,33 @@
 import React from 'react'
- 
+import { useNavigate } from "react-router-dom";
+import { IoCartOutline } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa6";
 import { GoStar } from "react-icons/go";
- 
-const ProductsDisplay = ({selectedCategories}) => {
- 
+import { useSelector,useDispatch } from 'react-redux';
+import { addToCart } from '../stores/cart';
+
+const ProductsDisplay = ({item,id}) => {
+    
+    const navigate = useNavigate();
+    const carts=useSelector(store => store.cart.Items);
+    console.log(carts);
+    const dispatch =useDispatch();
+    const handleAddToCart = ()=>{
+        dispatch(addToCart({
+            productId:item.id,
+            quantity:1,
+        }))
+    }
     return (
         <div className='flex mx-auto flex-wrap'>
-            {
-            // Products.map((product) => (
-                selectedCategories.map((item,id)=>(
+          
+            
+                
                     <div key={id} className="m-4 ml-[40px]  w-[400px] h-[400px] bg-white rounded-xl border ">
                     <div className='m-2  flex flex-col '>
                         <div className='flex gap-4 m-3'>
                             <img className='w-[70px] h-[70px] border rounded-full' src={item.image} alt="" />
-                            <div className='mx-auto flex flex-col gap-2'>
+                            <div className=' flex flex-col gap-2'>
                                 <h2 className='font-bold text-[16px]'>{item.name}
                                     <br />
                                     {item.head} 
@@ -22,8 +35,14 @@ const ProductsDisplay = ({selectedCategories}) => {
                                 <p className=' text-[12px]'>{item.sub_name}</p>
                                 <p className='px-3 py-1 rounded-xl  text-[8px] bg-pink-400 w-14 items-center '>{item.type}</p>
                             </div>
-                            <FaRegHeart />
+                            <div className="m-4 flex flex-col justify-between">
+                                <a href="#" draggable="false"><FaRegHeart size={20}/></a>
+                                
+                               
+                            </div>
+                            
                         </div>
+                        <button  className="ml-[250px] -mt-[30px] w-[150px] h-[50px] flex items-center justify-center gap-2 text-black " draggable="false" onClick={handleAddToCart}>   <IoCartOutline size={30} /><span>Add to Cart</span> </button>
                         <div className='flex flex-col gap-2  mt-6'>
                             <div className=' ml-4 flex gap-8'>
                                 <div className='mr-4'>
@@ -51,13 +70,12 @@ const ProductsDisplay = ({selectedCategories}) => {
                                     <GoStar key={i}/>
                                 ))}
                             </div>
-                            <button className='bg-gradient-to-r from-orange-400 to-orange-500 hover:from-orange-500 hover:to-orange-400  text-white rounded-2xl w-[150px] px-5 py-1 text-[20px]'>Know more</button>
+                            <button onClick={() => navigate(`/singleproduct/${item.id}`)} className='bg-gradient-to-r from-orange-400 to-orange-500 hover:from-orange-500 hover:to-orange-400  text-white rounded-2xl w-[150px] px-5 py-1 text-[20px]'>Know more</button>
                         </div>
                     </div>
                 </div>
-                ))
-            // ))
-            }
+                 
+          
         </div>
     )
 }
