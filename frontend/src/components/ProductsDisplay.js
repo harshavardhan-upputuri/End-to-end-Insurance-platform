@@ -5,12 +5,12 @@ import { FaRegHeart } from "react-icons/fa6";
 import { GoStar } from "react-icons/go";
 import { useSelector,useDispatch } from 'react-redux';
 import { addToCart } from '../stores/cart';
+import { assets } from "../Assets/assets.js"
 
 const ProductsDisplay = ({item,id}) => {
     
     const navigate = useNavigate();
     const carts=useSelector(store => store.cart.Items);
-    console.log(carts);
     const dispatch =useDispatch();
     const handleAddToCart = ()=>{
         dispatch(addToCart({
@@ -18,6 +18,9 @@ const ProductsDisplay = ({item,id}) => {
             quantity:1,
         }))
     }
+
+    console.log(item.image)
+
     return (
         <div className='flex mx-auto flex-wrap'>
           
@@ -26,7 +29,7 @@ const ProductsDisplay = ({item,id}) => {
                     <div key={id} className="m-4 ml-[40px]  w-[400px] h-[400px] bg-white rounded-xl border ">
                     <div className='m-2  flex flex-col '>
                         <div className='flex gap-4 m-3'>
-                            <img className='w-[70px] h-[70px] border rounded-full' src={item.image} alt="" />
+                            <img className='w-[70px] h-[70px] border rounded-full' src={`/Assets/${item.image}.png`}  alt="" />
                             <div className=' flex flex-col gap-2'>
                                 <h2 className='font-bold text-[16px]'>{item.name}
                                     <br />
