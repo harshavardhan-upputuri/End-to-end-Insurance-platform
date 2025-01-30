@@ -701,64 +701,6 @@ export const items = [
                     desc3: "Accidental death benefit for added protection....",
                 },
                 rating: 4,
-                keyhigh: {
-                    a: {
-                        image: <VscCoverage />,
-                        h2: "Comprehensive Coverage –",
-                        p: "Get extensive life insurance coverage to secure your family's financial future in case of unforeseen events.",
-                        l1: "Accidental death cover,",
-                        l2: "Terminal illness benefit,",
-                        l3: "Critical illness add-on options",
-                    },
-                    b: {
-                        image: payout,
-                        h2: "Guaranteed Payout",
-                        p: "Ensure your family gets a guaranteed sum assured payout to help them maintain their financial stability during difficult times.",
-                    },
-                    c: {
-                        image: <MdOutlineWorkspacePremium />,
-                        h2: "Affordable Premiums",
-                        p: "Enjoy high coverage at affordable premiums tailored to fit your financial needs.",
-                    },
-                    d: {
-                        image: taxbenefit,
-                        h2: "Tax Benefits",
-                        p: "Save on taxes with benefits under Sections 80C and 10(10D) of the Income Tax Act.",
-                    },
-                    e: {
-                        image: flexibility,
-                        h2: "Flexible Policy Terms",
-                        p: "Choose policy durations and premium payment terms that suit your life goals and financial planning.",
-                    },
-                    f: {
-                        image: addon,
-                        h2: "Add-on Benefits",
-                        p: "Enhance your policy with add-ons like accidental death benefit, critical illness cover, and waiver of premium."
-                    }
-                },
-                why: {
-                    a: {
-                        image: easyprocess,
-                        h3: "Simple and Quick Process",
-                        p: "Buy your term insurance policy online in just a few clicks, with minimal paperwork and maximum convenience.",
-                    },
-                    b: {
-                        image: claim,
-                        h3: "High Claim Settlement Ratio",
-                        p: "Rest assured with our excellent claim settlement record and prompt service for a smooth claims experience.",
-                    },
-                    c: {
-                        image: customercare,
-                        h3: "Dedicated Customer Support",
-                        p: "Reach out to our support team anytime for assistance with policy details, premium payments, or claims.",
-                    },
-                    d: {
-                        image: termlife,
-                        h3: "Enhanced Life Cover",
-                        p: "Opt for increasing life cover options to account for inflation and changing financial responsibilities."
-                    }
-                }
-                
             },
             {
                 id: '1',
@@ -776,63 +718,6 @@ export const items = [
                     desc3: "Tax benefits under Section 80C and 10D....",
                 },
                 rating: 4.5,
-                keyhigh: {
-                    a: {
-                        image: <VscCoverage />,
-                        h2: "Comprehensive Coverage –",
-                        p: "Get extensive life insurance coverage to secure your family's financial future in case of unforeseen events.",
-                        l1: "Accidental death cover,",
-                        l2: "Terminal illness benefit,",
-                        l3: "Critical illness add-on options",
-                    },
-                    b: {
-                        image: payout,
-                        h2: "Guaranteed Payout",
-                        p: "Ensure your family gets a guaranteed sum assured payout to help them maintain their financial stability during difficult times.",
-                    },
-                    c: {
-                        image: <MdOutlineWorkspacePremium />,
-                        h2: "Affordable Premiums",
-                        p: "Enjoy high coverage at affordable premiums tailored to fit your financial needs.",
-                    },
-                    d: {
-                        image: taxbenefit,
-                        h2: "Tax Benefits",
-                        p: "Save on taxes with benefits under Sections 80C and 10(10D) of the Income Tax Act.",
-                    },
-                    e: {
-                        image: flexibility,
-                        h2: "Flexible Policy Terms",
-                        p: "Choose policy durations and premium payment terms that suit your life goals and financial planning.",
-                    },
-                    f: {
-                        image: addon,
-                        h2: "Add-on Benefits",
-                        p: "Enhance your policy with add-ons like accidental death benefit, critical illness cover, and waiver of premium."
-                    }
-                },
-                why: {
-                    a: {
-                        image: easyprocess,
-                        h3: "Simple and Quick Process",
-                        p: "Buy your term insurance policy online in just a few clicks, with minimal paperwork and maximum convenience.",
-                    },
-                    b: {
-                        image: claim,
-                        h3: "High Claim Settlement Ratio",
-                        p: "Rest assured with our excellent claim settlement record and prompt service for a smooth claims experience.",
-                    },
-                    c: {
-                        image: customercare,
-                        h3: "Dedicated Customer Support",
-                        p: "Reach out to our support team anytime for assistance with policy details, premium payments, or claims.",
-                    },
-                    d: {
-                        image: termlife,
-                        h3: "Enhanced Life Cover",
-                        p: "Opt for increasing life cover options to account for inflation and changing financial responsibilities."
-                    }
-                }
             },
             {
                 id: '2',
@@ -850,63 +735,6 @@ export const items = [
                     desc3: "Covers 34 critical illnesses with add-ons....",
                 },
                 rating: 5,
-                keyhigh: {
-                    a: {
-                        image: <VscCoverage />,
-                        h2: "Comprehensive Coverage –",
-                        p: "Get extensive life insurance coverage to secure your family's financial future in case of unforeseen events.",
-                        l1: "Accidental death cover,",
-                        l2: "Terminal illness benefit,",
-                        l3: "Critical illness add-on options",
-                    },
-                    b: {
-                        image: payout,
-                        h2: "Guaranteed Payout",
-                        p: "Ensure your family gets a guaranteed sum assured payout to help them maintain their financial stability during difficult times.",
-                    },
-                    c: {
-                        image: <MdOutlineWorkspacePremium />,
-                        h2: "Affordable Premiums",
-                        p: "Enjoy high coverage at affordable premiums tailored to fit your financial needs.",
-                    },
-                    d: {
-                        image: taxbenefit,
-                        h2: "Tax Benefits",
-                        p: "Save on taxes with benefits under Sections 80C and 10(10D) of the Income Tax Act.",
-                    },
-                    e: {
-                        image: flexibility,
-                        h2: "Flexible Policy Terms",
-                        p: "Choose policy durations and premium payment terms that suit your life goals and financial planning.",
-                    },
-                    f: {
-                        image: addon,
-                        h2: "Add-on Benefits",
-                        p: "Enhance your policy with add-ons like accidental death benefit, critical illness cover, and waiver of premium."
-                    }
-                },
-                why: {
-                    a: {
-                        image: easyprocess,
-                        h3: "Simple and Quick Process",
-                        p: "Buy your term insurance policy online in just a few clicks, with minimal paperwork and maximum convenience.",
-                    },
-                    b: {
-                        image: claim,
-                        h3: "High Claim Settlement Ratio",
-                        p: "Rest assured with our excellent claim settlement record and prompt service for a smooth claims experience.",
-                    },
-                    c: {
-                        image: customercare,
-                        h3: "Dedicated Customer Support",
-                        p: "Reach out to our support team anytime for assistance with policy details, premium payments, or claims.",
-                    },
-                    d: {
-                        image: termlife,
-                        h3: "Enhanced Life Cover",
-                        p: "Opt for increasing life cover options to account for inflation and changing financial responsibilities."
-                    }
-                }
             },
             {
                 id: '3',
@@ -924,63 +752,6 @@ export const items = [
                     desc3: "Includes terminal illness cover with no extra....",
                 },
                 rating: 4,
-                keyhigh: {
-                    a: {
-                        image: <VscCoverage />,
-                        h2: "Comprehensive Coverage –",
-                        p: "Get extensive life insurance coverage to secure your family's financial future in case of unforeseen events.",
-                        l1: "Accidental death cover,",
-                        l2: "Terminal illness benefit,",
-                        l3: "Critical illness add-on options",
-                    },
-                    b: {
-                        image: payout,
-                        h2: "Guaranteed Payout",
-                        p: "Ensure your family gets a guaranteed sum assured payout to help them maintain their financial stability during difficult times.",
-                    },
-                    c: {
-                        image: <MdOutlineWorkspacePremium />,
-                        h2: "Affordable Premiums",
-                        p: "Enjoy high coverage at affordable premiums tailored to fit your financial needs.",
-                    },
-                    d: {
-                        image: taxbenefit,
-                        h2: "Tax Benefits",
-                        p: "Save on taxes with benefits under Sections 80C and 10(10D) of the Income Tax Act.",
-                    },
-                    e: {
-                        image: flexibility,
-                        h2: "Flexible Policy Terms",
-                        p: "Choose policy durations and premium payment terms that suit your life goals and financial planning.",
-                    },
-                    f: {
-                        image: addon,
-                        h2: "Add-on Benefits",
-                        p: "Enhance your policy with add-ons like accidental death benefit, critical illness cover, and waiver of premium."
-                    }
-                },
-                why: {
-                    a: {
-                        image: easyprocess,
-                        h3: "Simple and Quick Process",
-                        p: "Buy your term insurance policy online in just a few clicks, with minimal paperwork and maximum convenience.",
-                    },
-                    b: {
-                        image: claim,
-                        h3: "High Claim Settlement Ratio",
-                        p: "Rest assured with our excellent claim settlement record and prompt service for a smooth claims experience.",
-                    },
-                    c: {
-                        image: customercare,
-                        h3: "Dedicated Customer Support",
-                        p: "Reach out to our support team anytime for assistance with policy details, premium payments, or claims.",
-                    },
-                    d: {
-                        image: termlife,
-                        h3: "Enhanced Life Cover",
-                        p: "Opt for increasing life cover options to account for inflation and changing financial responsibilities."
-                    }
-                }
             },
  
             {
@@ -999,65 +770,6 @@ export const items = [
                     desc3: "Covers 527 daycare procedures",
                 },
                 rating: 4,
-
-                keyhigh:{
-                    a:{
-                        image:lupsum,
-                        h2:"Lump sum Benefit –",
-                        p:"Cover 586 Day care procedures even if hospitalization is less than 24 hours",
-                        l1:" Group personal accident cover ,",
-                        l2:" Group critical illness cover,",
-                        l3:"Group hospital cash benefit",
-                    },
-                    b:{
-                        image:patient,
-                        h2:"In-patient Hospitalization",
-                        p:"Covers in-patient hospitalization expenses like room rent, doctor's fees, surgery, tests, and medicines for stays over 24 hours."
-                    },
-                    c:{
-                        image:ambulance,
-                        h2:"Road Ambulance Cover",
-                        p:"Cover for the cost incurred on transportation of the insured person to a hospital by a road ambulance, along with hospital transfers for specialty treatment."
-                    },
-                    d:{
-                        image:cashless,
-                        h2:"Cashless settlement",
-                        p:"Hassle-free, cashless treatment at any of our 10051+ network hospitals spread across 650+ cities"
-                    },
-                    e:{
-                        image:cashless,
-                        h2:"Hassle Free Claims",
-                        p:"Get your cashless claims settlement in a hassle free manner within a short time of raising a claim."
-                    },
-                    f:{
-                        image:addon,
-                        h2:"Hassle Free Claims",
-                        p:"Get your cashless claims settlement in a hassle free manner within a short time of raising a claim."
-                    }
-                },
-                why:{
-                    a:{
-                        image:activhealth,
-                        h3:"Activ Health app",
-                        p:"Track and improve your health, get rewarded with HealthReturns™, and access your policy, all from your smartphone."
-                    },
-                    b:{
-                        image:health,
-                        h3:"Healthcare Network",
-                        p:"Make convenient cashless payments at 6000+ network hospitals in 650+ cities in India. Get access to 800+ fitness centers, including gyms, yoga, dance classes & more."
-                    },
-                    c:{
-                        image:customercare,
-                        h3:"Anytime, anywhere 24x7 support",
-                        p:"Reach out to our customer support team on WhatsApp and get your doubts and queries answered instantly."
-                    },
-                    d:{
-                        image:claim,
-                        h3:"Quick and easy claim settlement",
-                        p:"Get claims processed faster by our in-house claim settlement team and receive an e-mail/SMS update within 2 hour."
-                    }
-
-                }
             },
         
             {
@@ -1076,64 +788,6 @@ export const items = [
                     desc3: "Offers cashless claim facility at 6500+ ....",
                 },
                 rating: 3,
-                keyhigh:{
-                    a:{
-                        image:lupsum,
-                        h2:"Lump sum Benefit –",
-                        p:"Cover 586 Day care procedures even if hospitalization is less than 24 hours",
-                        l1:" Group personal accident cover ,",
-                        l2:" Group critical illness cover,",
-                        l3:"Group hospital cash benefit",
-                    },
-                    b:{
-                        image:patient,
-                        h2:"In-patient Hospitalization",
-                        p:"Covers in-patient hospitalization expenses like room rent, doctor's fees, surgery, tests, and medicines for stays over 24 hours."
-                    },
-                    c:{
-                        image:ambulance,
-                        h2:"Road Ambulance Cover",
-                        p:"Cover for the cost incurred on transportation of the insured person to a hospital by a road ambulance, along with hospital transfers for specialty treatment."
-                    },
-                    d:{
-                        image:cashless,
-                        h2:"Cashless settlement",
-                        p:"Hassle-free, cashless treatment at any of our 10051+ network hospitals spread across 650+ cities"
-                    },
-                    e:{
-                        image:cashless,
-                        h2:"Hassle Free Claims",
-                        p:"Get your cashless claims settlement in a hassle free manner within a short time of raising a claim."
-                    },
-                    f:{
-                        image:addon,
-                        h2:"Hassle Free Claims",
-                        p:"Get your cashless claims settlement in a hassle free manner within a short time of raising a claim."
-                    }
-                },
-                why:{
-                    a:{
-                        image:activhealth,
-                        h3:"Activ Health app",
-                        p:"Track and improve your health, get rewarded with HealthReturns™, and access your policy, all from your smartphone."
-                    },
-                    b:{
-                        image:health,
-                        h3:"Healthcare Network",
-                        p:"Make convenient cashless payments at 6000+ network hospitals in 650+ cities in India. Get access to 800+ fitness centers, including gyms, yoga, dance classes & more."
-                    },
-                    c:{
-                        image:customercare,
-                        h3:"Anytime, anywhere 24x7 support",
-                        p:"Reach out to our customer support team on WhatsApp and get your doubts and queries answered instantly."
-                    },
-                    d:{
-                        image:claim,
-                        h3:"Quick and easy claim settlement",
-                        p:"Get claims processed faster by our in-house claim settlement team and receive an e-mail/SMS update within 2 hour."
-                    }
-
-                }
             },
        
             {
@@ -1152,64 +806,6 @@ export const items = [
                     desc3: "Pre- and post-hospitalisation coverage ....",
                 },
                 rating: 3,
-                keyhigh:{
-                    a:{
-                        image:lupsum,
-                        h2:"Lump sum Benefit –",
-                        p:"Cover 586 Day care procedures even if hospitalization is less than 24 hours",
-                        l1:" Group personal accident cover ,",
-                        l2:" Group critical illness cover,",
-                        l3:"Group hospital cash benefit",
-                    },
-                    b:{
-                        image:patient,
-                        h2:"In-patient Hospitalization",
-                        p:"Covers in-patient hospitalization expenses like room rent, doctor's fees, surgery, tests, and medicines for stays over 24 hours."
-                    },
-                    c:{
-                        image:ambulance,
-                        h2:"Road Ambulance Cover",
-                        p:"Cover for the cost incurred on transportation of the insured person to a hospital by a road ambulance, along with hospital transfers for specialty treatment."
-                    },
-                    d:{
-                        image:cashless,
-                        h2:"Cashless settlement",
-                        p:"Hassle-free, cashless treatment at any of our 10051+ network hospitals spread across 650+ cities"
-                    },
-                    e:{
-                        image:cashless,
-                        h2:"Hassle Free Claims",
-                        p:"Get your cashless claims settlement in a hassle free manner within a short time of raising a claim."
-                    },
-                    f:{
-                        image:addon,
-                        h2:"Hassle Free Claims",
-                        p:"Get your cashless claims settlement in a hassle free manner within a short time of raising a claim."
-                    }
-                },
-                why:{
-                    a:{
-                        image:activhealth,
-                        h3:"Activ Health app",
-                        p:"Track and improve your health, get rewarded with HealthReturns™, and access your policy, all from your smartphone."
-                    },
-                    b:{
-                        image:health,
-                        h3:"Healthcare Network",
-                        p:"Make convenient cashless payments at 6000+ network hospitals in 650+ cities in India. Get access to 800+ fitness centers, including gyms, yoga, dance classes & more."
-                    },
-                    c:{
-                        image:customercare,
-                        h3:"Anytime, anywhere 24x7 support",
-                        p:"Reach out to our customer support team on WhatsApp and get your doubts and queries answered instantly."
-                    },
-                    d:{
-                        image:claim,
-                        h3:"Quick and easy claim settlement",
-                        p:"Get claims processed faster by our in-house claim settlement team and receive an e-mail/SMS update within 2 hour."
-                    }
-
-                }
             },
 
             {
@@ -1228,64 +824,6 @@ export const items = [
                     desc3: "Daycare treatment coverage for various procedures....",
                 },
                 rating: 3,
-                keyhigh:{
-                    a:{
-                        image:lupsum,
-                        h2:"Lump sum Benefit –",
-                        p:"Cover 586 Day care procedures even if hospitalization is less than 24 hours",
-                        l1:" Group personal accident cover ,",
-                        l2:" Group critical illness cover,",
-                        l3:"Group hospital cash benefit",
-                    },
-                    b:{
-                        image:patient,
-                        h2:"In-patient Hospitalization",
-                        p:"Covers in-patient hospitalization expenses like room rent, doctor's fees, surgery, tests, and medicines for stays over 24 hours."
-                    },
-                    c:{
-                        image:ambulance,
-                        h2:"Road Ambulance Cover",
-                        p:"Cover for the cost incurred on transportation of the insured person to a hospital by a road ambulance, along with hospital transfers for specialty treatment."
-                    },
-                    d:{
-                        image:cashless,
-                        h2:"Cashless settlement",
-                        p:"Hassle-free, cashless treatment at any of our 10051+ network hospitals spread across 650+ cities"
-                    },
-                    e:{
-                        image:cashless,
-                        h2:"Hassle Free Claims",
-                        p:"Get your cashless claims settlement in a hassle free manner within a short time of raising a claim."
-                    },
-                    f:{
-                        image:addon,
-                        h2:"Hassle Free Claims",
-                        p:"Get your cashless claims settlement in a hassle free manner within a short time of raising a claim."
-                    }
-                },
-                why:{
-                    a:{
-                        image:activhealth,
-                        h3:"Activ Health app",
-                        p:"Track and improve your health, get rewarded with HealthReturns™, and access your policy, all from your smartphone."
-                    },
-                    b:{
-                        image:health,
-                        h3:"Healthcare Network",
-                        p:"Make convenient cashless payments at 6000+ network hospitals in 650+ cities in India. Get access to 800+ fitness centers, including gyms, yoga, dance classes & more."
-                    },
-                    c:{
-                        image:customercare,
-                        h3:"Anytime, anywhere 24x7 support",
-                        p:"Reach out to our customer support team on WhatsApp and get your doubts and queries answered instantly."
-                    },
-                    d:{
-                        image:claim,
-                        h3:"Quick and easy claim settlement",
-                        p:"Get claims processed faster by our in-house claim settlement team and receive an e-mail/SMS update within 2 hour."
-                    }
-
-                }
             },
  
             {
