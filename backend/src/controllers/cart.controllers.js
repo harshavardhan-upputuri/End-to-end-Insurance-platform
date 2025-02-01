@@ -7,17 +7,25 @@ import mongoose from "mongoose";
 
 // Add item to cart
 const addToCart = asyncHandler(async (req, res) => {
-    const { policyId } = req.body;
+    const policyId = req.params.id; // Extract policyId from URL params
     const customerId = req.user._id;
 
+    console.log(`Policy ID: ${policyId}`);
+    console.log(`Customer ID: ${customerId}`);
+
+    // Validate the policyId
     if (!mongoose.Types.ObjectId.isValid(policyId)) {
         throw new ApiError(400, "Invalid policy ID");
     }
 
+    // Check if customer already has a cart
     let cart = await Cart.findOne({ customer: customerId });
+
     if (!cart) {
+        // If no cart exists, create a new one with the policy
         cart = await Cart.create({ customer: customerId, policies: [policyId] });
     } else {
+        // If cart exists, add policy if it's not already included
         if (!cart.policies.includes(policyId)) {
             cart.policies.push(policyId);
             await cart.save();
@@ -26,6 +34,7 @@ const addToCart = asyncHandler(async (req, res) => {
 
     return res.status(200).json(new ApiResponse(200, cart, "Item added to cart successfully"));
 });
+
 
 // Remove item from cart
 const removeFromCart = asyncHandler(async (req, res) => {
