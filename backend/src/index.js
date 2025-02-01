@@ -5,7 +5,7 @@ import path from "path"; // ✅ Import path
 
 dotenv.config({ path: path.resolve(process.cwd(), "src/.env") }); // ✅ Fixed path issue
 
-const PORT = process.env.PORT || 5000; // ✅ Add default PORT in case .env is missing
+const PORT = process.env.PORT ; // ✅ Add default PORT in case .env is missing
 
 connectDB()
   .then(() => {

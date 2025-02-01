@@ -8,6 +8,7 @@ import CartPage from "./Pages/CartPage";
 import Application from "./Pages/Application";
 import Login from "./Pages/Login";
 import SignUp from "./Pages/SignUp";
+import CurrentUser from "./Pages/GetCurrentUser.js"
 
 function Layout({ children }) {
   const location = useLocation();
@@ -34,6 +35,7 @@ function App() {
           <Route exact path="/application/:id" element={<Application />} />
           <Route exact path="/login" element={<Login />} />
           <Route exact path="/signup" element={<SignUp />} />
+          <Route exact path="/currentuser" element={<CurrentUser />} />
         </Routes>
       </Layout>
     </BrowserRouter>

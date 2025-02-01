@@ -73,7 +73,7 @@ const ProductsDisplay = ({item,id}) => {
                                     <GoStar key={i}/>
                                 ))}
                             </div>
-                            <button onClick={() => navigate(`/singleproduct/${item.id}`)} className='bg-gradient-to-r from-orange-400 to-orange-500 hover:from-orange-500 hover:to-orange-400  text-white rounded-2xl w-[150px] px-5 py-1 text-[20px]'>Know more</button>
+                            <button onClick={() => navigate(`/singleproduct/${item._id}`)} className='bg-gradient-to-r from-orange-400 to-orange-500 hover:from-orange-500 hover:to-orange-400  text-white rounded-2xl w-[150px] px-5 py-1 text-[20px]'>Know more</button>
                         </div>
                     </div>
                 </div>

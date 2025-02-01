@@ -4,8 +4,12 @@ import cookieParser from "cookie-parser";
 
 const app = express();
 
-app.use(cors()); 
-
+app.use(
+    cors({
+        origin: "http://localhost:3000", // Replace with your frontend URL
+        credentials: true, // Allow cookies to be sent
+    })
+);
 
 //common midddleware
 app.use(express.json({limit: "16kb"}))
